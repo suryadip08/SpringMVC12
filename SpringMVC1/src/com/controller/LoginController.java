@@ -16,7 +16,9 @@ public class LoginController {
 		String password = req.getParameter("pwd");
 		String id = req.getParameter("id");
 		
-		System.out.println("username "+username);
+		System.out.println("Inside LoginController");
+		System.out.println("username is :"+username);
+		
 		
 		if(password.equals("admin") && id.equals("10")){
 			String message = "Hello " + username;
