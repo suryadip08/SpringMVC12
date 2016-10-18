@@ -16,6 +16,7 @@ public class LoginController {
 		String password = req.getParameter("pwd");
 		String id = req.getParameter("id");
 		
+		System.out.println("Inside LoginController");
 		System.out.println("username :"+username);
 		System.out.println("id :" +id);
 		
